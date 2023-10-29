@@ -1,0 +1,66 @@
+body {
+  background-color: #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+}
+
+.links a:hover {
+  color: grey;
+}
+
+.logo-container {
+  background-color: #ffffff;
+}
+
+.mettre {
+  display: inline;
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+.mettre:hover {
+  background-color: rgb(182, 168, 168);
+  position: absoute;
+
+}
+
+.mettre a {
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+  padding: 20px;
+  /* Remove the list item marker (usually a dot) */
+
+
+}
+
+.mettre li {
+  list-style: none;
+  display: inline-block;
+  
+}
+.host{
+  
